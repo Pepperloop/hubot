@@ -24,10 +24,11 @@ class TextMessage extends Message {
   // user - A User instance that sent the message.
   // text - A String message.
   // id   - A String of the message ID.
-  constructor (user, text, id) {
+  constructor (user, text, id, reponseText = null) {
     super(user)
     this.text = text
     this.id = id
+    this.reponseText = reponseText
   }
 
   // Determines if the message matches the given regex.
