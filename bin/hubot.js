@@ -6,7 +6,7 @@ const pathResolve = require('path').resolve
 const OptParse = require('optparse')
 
 const Hubot = require('..')
-
+const dotenv = require('dotenv').config()
 const switches = [
   ['-a', '--adapter ADAPTER', 'The Adapter to use'],
   ['-c', '--create PATH', 'Create a deployable hubot'],
