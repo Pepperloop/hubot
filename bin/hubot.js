@@ -7,8 +7,6 @@ const OptParse = require('optparse')
 
 const Hubot = require('..')
 
-const Hubot = require('..')
-
 try {
   const dotenv = require('dotenv').config()
   console.log("Is load" + e.code)
